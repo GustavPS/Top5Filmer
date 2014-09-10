@@ -1,0 +1,117 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-image: url(../bilder/background.jpg);
+}
+
+#container {
+    position: relative;
+    width: 1010px;
+    margin: 0 auto;
+    min-height: 100%;
+}
+
+#title {
+    position: relative;
+    top: 0px;
+    font-family: Consolas, monaco, monospace;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.falldown {
+    width: 200px;
+    height: 250px;
+    transition: height 0.5s ease;
+}
+
+.falldown:hover {
+    height: 260px;
+}
+
+.filmer {
+    position: relative;
+    top: 50px;
+    margin-right: 2px;
+    display: table;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #102624;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+footer h2 {
+    text-align: center;
+}
+
+.Navigation {
+    position: relative;
+    margin-right: 50px;
+    display: table;
+    float: left;    
+}
+
+.infopic {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.infopicdiv {
+    position: relative;
+    top: 100px;
+    right: 880px;
+    width: 0;
+    height: 0;
+}
+
+p {
+    color:white;
+    padding: 5px;
+    position: relative;
+    top: -45px;
+}
+
+.infotext {
+    position: relative;
+    left: 450px;
+    top: 83px;
+    width: 500px;
+    height: 300px;
+    background-color: #1B1C3C;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+#picover {
+    position: relative;
+    left: -4px;
+    width: 400px;
+    background-color: gray;
+    text-align: center;
+    color: black;
+}
+
+.Nav {
+    transition: color 0.5s ease;
+}
+
+.Nav:hover {
+    color: #497B2B;
+}
