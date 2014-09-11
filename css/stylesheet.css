@@ -108,10 +108,23 @@ p {
     color: black;
 }
 
+.divlink {
+    width: 0;
+}
+
 .Nav {
     transition: color 0.5s ease;
 }
 
 .Nav:hover {
     color: #497B2B;
+}
+
+#readmore {
+    transform: rotate(90deg);
+	transform-origin: left top 0;
+    position: absolute;
+    width: 85px;
+    top: 80px;
+    left: 523px;
 }
